@@ -10,17 +10,4 @@ import org.springframework.test.context.web.WebAppConfiguration;
 @WebAppConfiguration
 public class TestBase {
 
-	// @Test
-	// public void testSampleService() {
-	// assertEquals("class
-	// com.areyes1.jgc.junit.spring.service.SampleServiceImpl",
-	// this.sampleService.getClass().toString());
-	// }
-	//
-	// @Test
-	// public void testSampleServiceGetAccountDescription() {
-	// // Check if the return description has a Description: string.
-	// assertTrue(sampleService.getOrderDescription().contains("Description:"));
-	// }
-
 }

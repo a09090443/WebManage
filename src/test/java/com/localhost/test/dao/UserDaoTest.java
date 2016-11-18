@@ -27,7 +27,7 @@ public class UserDaoTest extends TestBase{
 		assertTrue(true);
 	}
 	
-	@Test
+//	@Test
 	public void testFindUser() {
 		try {
 			UserId id = new UserId();

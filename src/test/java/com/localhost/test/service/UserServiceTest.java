@@ -20,7 +20,7 @@ public class UserServiceTest extends TestBase {
 	@Autowired
 	private IUserService userService;
 
-	@Test
+//	@Test
 	public void testAddUser() {
 		try {
 			System.out.println("test");
