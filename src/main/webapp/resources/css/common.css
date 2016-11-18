@@ -1,0 +1,120 @@
+.button {
+	border: 1px solid #020405;
+	background: #089cff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#9bbcd1),
+		to(#089cff));
+	background: -webkit-linear-gradient(top, #9bbcd1, #089cff);
+	background: -moz-linear-gradient(top, #9bbcd1, #089cff);
+	background: -ms-linear-gradient(top, #9bbcd1, #089cff);
+	background: -o-linear-gradient(top, #9bbcd1, #089cff);
+	background-image: -ms-linear-gradient(top, #9bbcd1 0%, #089cff 100%);
+	padding: 7px 14px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0, inset
+		rgba(255, 255, 255, 0.4) 0 1px 0;
+	-moz-box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0, inset
+		rgba(255, 255, 255, 0.4) 0 1px 0;
+	box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0, inset
+		rgba(255, 255, 255, 0.4) 0 1px 0;
+	text-shadow: #7ea4bd 0 1px 0;
+	color: #091a24;
+	font-size: 14px;
+	font-family: helvetica, serif;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.button:hover {
+	border: 1px solid #0a3c59;
+	text-shadow: #1e4158 0 1px 0;
+	background: #3e779d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7),
+		to(#3e779d));
+	background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+	background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+	background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+	background: -o-linear-gradient(top, #65a9d7, #3e779d);
+	background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+	color: #fff;
+}
+
+.button:active {
+	text-shadow: #1e4158 0 1px 0;
+	border: 1px solid #0a3c59;
+	background: #65a9d7;
+	background: -webkit-gradient(linear, left top, left bottom, from(#3e779d),
+		to(#3e779d));
+	background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+	background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+	background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+	background: -o-linear-gradient(top, #3e779d, #65a9d7);
+	background-image: -ms-linear-gradient(top, #3e779d 0%, #65a9d7 100%);
+	color: #fff;
+}
+
+label, input {
+	display: block;
+}
+
+input.text {
+	margin-bottom: 12px;
+	width: 95%;
+	padding: .4em;
+}
+
+fieldset {
+	padding: 0;
+	border: 0;
+	margin-top: 0px;
+}
+
+h1 {
+	font-size: 1.2em;
+	margin: .6em 0;
+}
+
+div#users-contain {
+	width: 350px;
+	margin: 20px 0;
+}
+
+div#users-contain table {
+	margin: 1em 0;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+div#users-contain table td, div#users-contain table th {
+	border: 1px solid #eee;
+	padding: .6em 10px;
+	text-align: left;
+}
+
+.ui-dialog .ui-state-error {
+	padding: .3em;
+}
+
+.validateTips {
+	border: 1px solid transparent;
+	padding: 0.3em;
+}
+
+input[readonly], textarea[readonly] {
+	color: black !important;
+	cursor: default;
+	background-color: #DEDEDE;
+}
+
+.alignRight {
+	text-align: right;
+}
+
+.alignCenter {
+	text-align: center;
+}
+
+.alignLeft {
+	text-align: left;
+}
